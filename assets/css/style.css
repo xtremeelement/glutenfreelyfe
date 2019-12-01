@@ -28,6 +28,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 10px;
+  border-left: 10px solid #21648e;
 }
 
 .mainContent {
@@ -41,7 +42,55 @@
 .viewRecipes {
   width: 150px;
   height: 75px;
-  background-color: B4C5E6;
+  background-color: #21648e;
   border: none;
   color: white;
+}
+
+.parallax {
+  background-image: url("/assets/imgs/black-teapot-beside-teacup-2126268.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.recipeButton {
+  background-color: #21648e;
+  border: none;
+  color: white;
+}
+
+.parallaxContent {
+  position: relative;
+  top: 20%;
+  left: 25%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  color: white;
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  border-left: 10px solid #21648e;
+}
+
+#enterEmail {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+#subscribe {
+  background-color: #21648e;
+  border: none;
+  width: 20%;
+  color: white;
+}
+
+.footer {
+  justify-content: center;
 }
