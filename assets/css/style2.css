@@ -1,0 +1,50 @@
+.navbar,
+.navbar-header a {
+  z-index: 2;
+}
+.navbar-brand,
+.navbar-brand:hover {
+  color: white;
+}
+.navbar-nav a {
+  color: white;
+}
+
+#jumbotronContainer {
+  justify-content: center;
+  margin-top: 25vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 10px;
+  border-left: 10px solid #21648e;
+}
+
+.parallax {
+  background-image: url("../imgs/close-up-photo-of-burger-1639562.jpg");
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+}
+
+.footer {
+  justify-content: center;
+}
+
+.recipeCard {
+  justify-content: center;
+  margin-top: 25vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 10px;
+  border-left: 10px solid #21648e;
+  width: 400px;
+  margin-left: 150px;
+  color: white;
+}
+
+.recipeItem {
+  margin-top: 40px;
+}
