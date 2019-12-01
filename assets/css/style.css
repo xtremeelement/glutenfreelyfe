@@ -1,0 +1,47 @@
+.navbar,
+.navbar-header a {
+  z-index: 2;
+}
+.navbar-brand,
+.navbar-brand:hover {
+  color: white;
+}
+.navbar-nav a {
+  color: white;
+}
+
+#callToAction {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 80vh;
+  background-image: url("/assets/imgs/food-vegetarian-kitchen-cooking-33242.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+
+#jumbotronContainer {
+  justify-content: center;
+  margin-top: 25vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 10px;
+}
+
+.mainContent {
+  margin-top: 75vh;
+  width: 80vw;
+}
+.col-3 {
+  margin: 0;
+}
+
+.viewRecipes {
+  width: 150px;
+  height: 75px;
+  background-color: B4C5E6;
+  border: none;
+  color: white;
+}
