@@ -29,6 +29,26 @@
   background-size: cover;
   margin-top: 0px;
 }
+.parallaxCookies {
+  background-image: url("../imgs/dsc02226.jpg");
+  height: 90vh;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+}
+.parallaxPizza {
+  background-image: url("../imgs/DSC02230.jpg");
+  height: 90vh;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+}
 
 .footer {
   justify-content: center;
