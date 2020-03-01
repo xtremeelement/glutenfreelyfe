@@ -21,8 +21,9 @@
 
 .parallax {
   background-image: url("../imgs/DSC02189web.jpg");
-  height: 90vh;
+  height: 600px;
   width: 100vw;
+  min-width: 375px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,8 +62,9 @@
   text-align: center;
   padding: 10px;
   border-left: 10px solid #21648e;
-  width: 400px;
-  margin-left: 150px;
+  width: 30%;
+  min-width: 300px;
+  margin-left: 5%;
   color: white;
 }
 
